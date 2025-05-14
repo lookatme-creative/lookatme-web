@@ -156,7 +156,7 @@ export default function TestimonialsSection({ currentLocale }: TestimonialsSecti
                     <p className="text-gray-600 text-sm">{testimonial.role}</p>
                     <p className="text-blue-600 text-sm mt-1">{testimonial.service}</p>
                     <blockquote className="text-gray-700 italic mt-4 leading-relaxed">
-                      &quot{testimonial.quote}&quot
+                      {testimonial.quote}
                     </blockquote>
                   </div>
                 </div>
