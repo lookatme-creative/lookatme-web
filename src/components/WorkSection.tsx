@@ -75,16 +75,6 @@ const works: Work[] = [
       en: "Fun, cute, and special icons are all there."
     }
   },
-    {
-    id: 7,
-    title: "Icon Pack",
-    category: "Design Icons",
-    image: "/images/icon_all_collection.jpg",
-    description: {
-      id: "Icon-icon fun, lucu, dan spesial semua ada.",
-      en: "Fun, cute, and special icons are all there."
-    }
-  },
 ]
 
 const categoryTranslations: Record<string, { id: string; en: string }> = {
