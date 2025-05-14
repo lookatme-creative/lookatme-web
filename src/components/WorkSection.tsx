@@ -57,16 +57,6 @@ const works: Work[] = [
   },
   {
     id: 5,
-    title: "Ventela Shoes",
-    category: "Design Poster",
-    image: "/images/ventela public low finals.jpg",
-    description: {
-      id: "Desain Poster Sepatu yang cocok dengan Dreamy look.",
-      en: "Shoe Poster Design that matches the Dreamy look."
-    }
-  },
-  {
-    id: 6,
     title: "Icon Pack",
     category: "Design Icons",
     image: "/images/icon_all_collection.jpg",
@@ -76,13 +66,73 @@ const works: Work[] = [
     }
   },
     {
-    id: 7,
+    id: 6,
     title: "Safety First",
     category: "Design Poster",
     image: "/images/poster pama.jpg",
     description: {
       id: "Waspada Insiden Amblas.",
       en: "Beware of Landslide Incidents."
+    }
+  },
+    {
+    id: 7,
+    title: "Ventela Shoes",
+    category: "Design Poster",
+    image: "/images/ventela public low finals.jpg",
+    description: {
+      id: "Desain Poster Sepatu yang cocok dengan Dreamy look.",
+      en: "Shoe Poster Design that matches the Dreamy look."
+    }
+  },
+    {
+    id: 8,
+    title: "Qutoe Ventela Shoes",
+    category: "Design Poster",
+    image: "/images/quote finals.jpg",
+    description: {
+      id: "Desain Poster Sepatu yang cocok dengan Dreamy look.",
+      en: "Shoe Poster Design that matches the Dreamy look."
+    }
+  },   
+   {
+    id: 9,
+    title: "Tips & Trick Ventela Shoes",
+    category: "Design Poster",
+    image: "/images/tips and trick finals shoe.jpg",
+    description: {
+      id: "Desain Poster Sepatu yang cocok dengan Dreamy look.",
+      en: "Shoe Poster Design that matches the Dreamy look."
+    }
+  },  
+    {
+    id: 10,
+    title: "Rucas",
+    category: "Design Poster",
+    image: "/images/Rucas finals.jpg",
+    description: {
+      id: "Desain Poster Outfit Skena.",
+      en: "Outfit Scene Poster Design."
+    }
+  },
+      {
+    id: 11,
+    title: "Quote Rucas",
+    category: "Design Poster",
+    image: "/images/quote rucas.jpg",
+    description: {
+      id: "Desain Poster Outfit Skena.",
+      en: "Outfit Scene Poster Design."
+    }
+  },
+      {
+    id: 12,
+    title: "Tips & Trick Rucas",
+    category: "Design Poster",
+    image: "/images/tips and trick finals.jpg",
+    description: {
+      id: "Desain Poster Outfit Skena.",
+      en: "Outfit Scene Poster Design."
     }
   },
 ]
