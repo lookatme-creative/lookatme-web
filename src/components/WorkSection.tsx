@@ -75,6 +75,16 @@ const works: Work[] = [
       en: "Fun, cute, and special icons are all there."
     }
   },
+    {
+    id: 7,
+    title: "Safety First",
+    category: "Design Poster",
+    image: "/images/poster pama.jpg",
+    description: {
+      id: "Waspada Insiden Amblas.",
+      en: "Beware of Landslide Incidents."
+    }
+  },
 ]
 
 const categoryTranslations: Record<string, { id: string; en: string }> = {
