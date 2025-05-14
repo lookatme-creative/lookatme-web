@@ -8,7 +8,7 @@ interface Testimonial {
   role: string
   service: string
   quote: string
-  image: string
+  img: string
 }
 
 const testimonials: Testimonial[] = [
@@ -18,7 +18,7 @@ const testimonials: Testimonial[] = [
     role: "Mahasiswi",
     service: "Web Design and Development",
     quote: "Dari awal udah yakin karena portofolionya cakep. Tapi waktu website saya jadi, tampilannya beneran profesional dan responsif di semua device. Plus, proses komunikasinya enak dan cepat!",
-    image: "/images/azka.jpeg"
+    img: "/images/azka.jpeg"
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
     role: "Youtuber",
     service: "Design Poster",
     quote: "Serius, desainnya keren parah! Langsung dipajang di venue dan banyak yang foto-foto di depan poster. Feel-nya dapet banget, padahal cuma kasih konsep seadanya.",
-    image: "/images/wielino.jpg"
+    img: "/images/wielino.jpg"
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const testimonials: Testimonial[] = [
     role: "Wirausahawan",
     service: "Icon Pack",
     quote: "Icon pack-nya clean dan konsisten banget. Bener-bener ngebantu ningkatin tampilan UI project saya jadi lebih hidup dan user-friendly. Worth every penny",
-    image: "/images/agus.jpg"
+    img: "/images/agus.jpg"
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const testimonials: Testimonial[] = [
     role: "Wirausahawan",
     service: "Design Apparel",
     quote: "Desain posternya bikin orang langsung berhenti scrolling! Warna, komposisi, dan tipografinya pas banget. Langsung ningkatin engagement event kita di IG sampai 2x lipat. Mantap!",
-    image: "/images/someone.jpg"
+    img: "/images/someone.jpg"
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const testimonials: Testimonial[] = [
     role: "Mahasiswi",
     service: "Design Logo",
     quote: "Awalnya saya cuma kasih brief singkat aja, tapi hasil logonya benar-benar di luar ekspektasi. Simpel, elegan, dan bisa langsung mewakili identitas brand saya. Terima kasih udah bisa translate ide saya ke visual yang keren banget!",
-    image: "/images/juminten.jpg"
+    img: "/images/juminten.jpg"
   }
 ]
 
@@ -147,7 +147,7 @@ export default function TestimonialsSection({ currentLocale }: TestimonialsSecti
               >
                 <div className="flex flex-col md:flex-row items-center gap-6">
                   <img
-                    src={testimonial.image}
+                    src={testimonial.img}
                     alt={testimonial.name}
                     className="w-20 h-20 rounded-full object-cover"
                   />
@@ -156,7 +156,7 @@ export default function TestimonialsSection({ currentLocale }: TestimonialsSecti
                     <p className="text-gray-600 text-sm">{testimonial.role}</p>
                     <p className="text-blue-600 text-sm mt-1">{testimonial.service}</p>
                     <blockquote className="text-gray-700 italic mt-4 leading-relaxed">
-                      "{testimonial.quote}"
+                      &quot{testimonial.quote}&quot
                     </blockquote>
                   </div>
                 </div>
